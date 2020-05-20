@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t simple-node .
+  - docker build -t simple-node ./lesson-3-independent-releases/exercises/travis_env_var_exercise
   - docker tag simple-node mamadly/simple-node:latest
 
 after_success:

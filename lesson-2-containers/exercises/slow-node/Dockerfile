@@ -1,4 +1,4 @@
-FROM node:13
+FROM mamadly/slow_node_base_image:latest
 
 # Create app directory
 WORKDIR /usr/src/app
